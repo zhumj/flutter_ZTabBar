@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin,
   @override
   Widget build(BuildContext context) {
     super.build(context);
+
     return Scaffold(
       backgroundColor: Color(0xFFF8F8F8),
       appBar: AppBar(
@@ -77,7 +78,7 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin,
                   labelColor: Colors.redAccent,
                   unselectedLabelColor: Colors.black,
                   indicatorColor: Colors.redAccent,
-                  indicatorSize: TabBarIndicatorSize.label,
+                  indicatorSize: TabBarIndicatorSize.tab,
                   tabs: [
                     ZTabHelper(text: "Tab1"),
                     ZTabHelper(text: "Tab2"),

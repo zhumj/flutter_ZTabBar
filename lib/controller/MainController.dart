@@ -53,6 +53,7 @@ class _MainControllerState extends State<MainController> with SingleTickerProvid
       ),
       body: TabBarView(
         controller: _tabController,
+//        physics: NeverScrollableScrollPhysics(),//禁止滑动
         children: [
           HomePage(),
           BusinessPage(),
